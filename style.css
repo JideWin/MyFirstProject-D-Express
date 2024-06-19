@@ -145,6 +145,7 @@ li {
     margin-top: 3rem;
 }
 
+
 .topAffiliate h2{
     font-family: Montserrat;
     font-size: 36px;
@@ -177,6 +178,18 @@ li {
     margin: auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+.juhel img {
+    width: 100%;
+}
+
+.emzor img {
+    width: 100%;
+}
+
+.gsk img {
+    width: 100%;
 }
 
 .topBenefits h2{
@@ -551,4 +564,91 @@ footer{
     color: white;
     padding-top: 2rem;
     text-align: center;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .heroText h2{
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 45.57px;
+        margin-top: 5rem;
+    }
+    
+    .heroText p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24.59px;
+        padding: 1rem 0;
+    }
+
+    .heroText{
+        width:50%;
+        margin-top: 2rem;
+    }
+
+    .affiliateImages{
+        gap: 5rem;
+        width: 60%;
+    }
+
+    .medicineText h5{
+        width: 70%;
+    }
+
+    .optionText p{
+        font-size: 16px;
+    }
+
+    .bikeText{
+        padding-left: 3rem;
+    }
+
+    .bikeImage img{
+        width: 100%;
+    }
+
+    .profileImage img{
+        width: 100%;
+    }
+
+    .profile{
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .profileOptionText p{
+        font-size: 16px;
+    }
+
+    .profileText h5{
+        font-size: 24px;
+        width: 80%;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    .drugText h2{
+        font-size: 30px;
+    }
+
+    .signupInput{
+        width: 45%;
+    }
+
+    .serviceSide{
+        gap: 3rem;
+    }
+
 }
