@@ -627,18 +627,6 @@ footer{
         width: 80%;
     }
     
-
-
-
-
-
-
-
-
-
-
-
-
     .drugText h2{
         font-size: 30px;
     }
@@ -651,4 +639,419 @@ footer{
         gap: 3rem;
     }
 
+}
+
+
+
+@media screen and (max-width: 768px){
+    nav{
+        display: none;    
+    }
+    .btn{
+        display: none;
+    }
+
+    .heroText h2{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .heroText p{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+    .heroText{
+        width: 60%;
+        margin-top: 6rem;
+    }
+
+    
+    .heroBtn button{
+        padding: .5rem 1rem;
+
+    }
+
+    .heroForm button{
+        width: 25%;
+    }
+
+    .heroForm input{
+        width: 68%;
+    }
+
+    .heroImage img{
+        width: 115%;
+    }
+
+    .heroImage{
+        width: 50%;
+    }
+    
+
+    .medicineText h5{
+        font-size: 20px;
+        width: 85%;
+    }
+
+    .optionText p{
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+
+    .medicineImage img {
+        width: 100%;
+    }
+
+    .medicineText button{
+        font-size: 14px;
+        font-weight: 400;
+        padding: .7rem 1rem;
+    
+    }
+
+    .bikeText h5{
+        font-size: 20px;
+        width: 85%;
+    }
+
+    .bikeoptionText p{
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .bikeImage img{
+        width: 100%;
+    }
+
+    .bikeText button{
+        font-size: 14px;
+        font-weight: 400;
+        padding: .7rem 1rem;   
+    }
+
+    .profileImage img{
+        width: 100%;
+    }
+
+    .profile{
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .profileOptionText p{
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .profileText h5{
+        font-size: 20px;
+        width: 85%;
+    }
+    .profileText button{
+        font-size: 14px;
+        font-weight: 400;
+        padding: .7rem 1rem;
+    }
+
+    .drugText h2{
+        font-size: 23px;
+        line-height: 39.1px;
+        margin-bottom: .1rem;    
+    }
+    .drugText p{
+        font-size: 12px;
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .drugText h5{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .blue{
+        width: 35px;
+    }
+    
+    .green{
+        width: 35px;
+    }
+
+    .signupText h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .signupInput input{
+        width: 60%;
+    }
+    
+    .signupInput button{
+        width: 40%;
+        font-size: 12px;
+        padding: .6.2rem;
+    }
+
+
+    .signupInput{
+        width: 45%;
+    }
+
+    .logoSide p{
+        font-size: 14px;
+    }
+
+    .serviceSide h4{
+        font-size: 14px;
+
+    }
+
+    .serviceSide li{
+        font-size: 14px;
+    }
+
+    .serviceSide{
+        gap: 2rem
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 426px) {
+
+    .hero {
+      display: block;
+      width: 90%;
+      margin: auto;
+    }
+  
+    .heroText {
+      width: 100%;
+      margin-top: 5rem;
+    }
+  
+    .heroImage {
+      width: 100%;
+      margin-left: 0rem;
+    }
+  
+    .heroBtn button {
+      font-size: 16px;
+      padding: 0.5rem 1.5rem;
+      border-radius: 50px;
+      margin-right: 0.5rem;
+    }
+  
+    .heroForm {
+      width: 100%;
+    }
+  
+    .heroForm input {
+      width: 70%;
+      padding: 0.7rem;
+    }
+  
+    .heroForm button {
+      width: 25%;
+    }
+  
+    .lines {
+    display: flex;
+    width: 20%;
+    margin: auto;
+    }
+  
+    .blue {
+    width: 45.5px;
+    }
+  
+  .green {
+    width: 45.5px;
+    }
+  
+  .affiliateImages {
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    }
+  
+  .topAffiliate h2 {
+      font-size: 30px;
+    }
+  
+    .topBenefits h2 {
+      font-size: 30px;
+    }
+  
+    .medicine {
+      flex-direction: column;
+      margin-top: 2rem;
+      align-items: center;
+    }
+    
+    .optionText p {
+      font-size: 14px;
+      font-weight: 400;
+    }
+    
+    .medicineText h5 {
+      font-size: 20px;
+      width: 70%;
+    }
+  
+    .bike {
+        flex-direction:column-reverse;
+        margin-top: 2rem;
+        align-items: center;
+      }
+
+    .bikeText h5{
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .bikeoptionText p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .bikeImage img{
+      margin-top: 1rem;
+      width: 80%;
+    }
+
+    .profile{
+        flex-direction:column;
+        margin-top: 2rem;
+        align-items: center;
+    }
+
+    .profileOptionText p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .profileText h5{
+        font-size: 20px;
+        width: 70%;
+    }
+
+
+
+
+
+
+
+
+
+
+    .clients {
+      flex-direction: column;
+    }
+    
+    .line {
+      display: flex;
+      width: 40%;
+      margin: auto;
+    }
+    
+    .clientText h2 {
+      font-size: 30px;
+      line-height: 49.18px;
+      margin-bottom: 0.5rem;
+    }
+    
+    .clientText p {
+      font-size: 14px;
+      width: 90%;
+    }
+    
+    .clientText h5 {
+      font-size: 14px;
+      padding-bottom: 2rem;
+    }
+    
+    .clientImage img {
+      width: 100%;
+    }
+    
+    .clientImage {
+      width: 100%;
+    }
+    
+    .clientText {
+      width: 100%;
+      margin-left: 2rem;
+      margin-top: 1rem;
+    }
+
+
+    .signup{
+        flex-direction: column;
+    }
+    .signupText h3{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32.78px;
+        color: white;
+        padding-bottom: 1rem;
+    }
+    .signupText p{
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 24.59px;
+        color: white;
+
+    }
+    
+    .signupText{
+        width: 100%;
+    }
+
+    .signupInput{
+        width: 100%;
+    }
+
+    .footContact{
+      flex-direction: column;   
+    }
+
+    .serviceSide{
+       flex-direction: column;
+       align-items: flex-start;
+       gap: 1rem;
+       margin-top: 2rem;
+    
+    }
+
+    .logoSide{
+        width: 100%;
+    }
+    .logoSide p{
+        width: 100%;;
+        font-size: 16px;
+    }
+
+    .serviceSide h4{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .serviceSide li{
+        font-size: 14px;
+    }
+
+    .copyRight{
+        font-size: 12px;
+    }
+  
 }
