@@ -944,17 +944,8 @@ footer{
         width: 70%;
     }
 
-
-
-
-
-
-
-
-
-
     .clients {
-      flex-direction: column;
+      flex-direction: column-reverse;
     }
     
     .line {
@@ -1054,4 +1045,17 @@ footer{
         font-size: 12px;
     }
   
+}
+
+
+@media screen and (max-width: 376px){
+
+    .heroBtn button {
+        font-size: 16px;
+        padding: 0.6rem 1.2rem;
+      } 
+
+      .heroText h2{
+        font-size: 25px;
+    }
 }
