@@ -944,8 +944,8 @@ footer{
         width: 70%;
     }
 
-    .clients {
-      flex-direction: column-reverse;
+    .drug {
+      flex-direction: column;
     }
     
     .line {
@@ -954,31 +954,31 @@ footer{
       margin: auto;
     }
     
-    .clientText h2 {
+    .drugText h2 {
       font-size: 30px;
       line-height: 49.18px;
       margin-bottom: 0.5rem;
     }
     
-    .clientText p {
+    .drugText p {
       font-size: 14px;
       width: 90%;
     }
     
-    .clientText h5 {
+    .drugText h5 {
       font-size: 14px;
       padding-bottom: 2rem;
     }
     
-    .clientImage img {
+    .drugImage img {
       width: 100%;
     }
     
-    .clientImage {
+    .drugImage {
       width: 100%;
     }
     
-    .clientText {
+    .drugText {
       width: 100%;
       margin-left: 2rem;
       margin-top: 1rem;
@@ -1044,6 +1044,7 @@ footer{
     .copyRight{
         font-size: 12px;
     }
+
   
 }
 
@@ -1057,5 +1058,27 @@ footer{
 
       .heroText h2{
         font-size: 25px;
-    }
+      }
+
+        .drugText h2{
+            font-size: 25px;   
+        }
+
+        .optionText h2 {
+            font-size: 12px;
+            width: 100%;
+        }
+
+        .optionText p{
+            font-size: 12px;
+        }
+
+        .bikeoptionText p {
+            font-size: 12px;
+        }
+
+        .profileOptionText p {
+            font-size: 12px;
+        }
+
 }
